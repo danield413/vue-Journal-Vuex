@@ -38,7 +38,7 @@
             @on:click="saveEntry" 
         />
 
-        <img v-if="entry.pciture" :src="entry.picture"
+        <img v-if="entry.picture" :src="entry.picture"
             alt="entry-picture" class="img-thumbnail">
 
         <img v-if="localImage" :src="localImage" alt="entry-picture" class="img-thumbnail">
